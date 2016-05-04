@@ -21,7 +21,10 @@ shinyUI(fluidPage(
   
   # Sidebar with a slider input for number of bins 
   sidebarLayout(
-    sidebarPanel(h5('Tab panel Overview Dengue Table Data(30 rows) - Choose Year in Slider below'),
+    sidebarPanel(h3('Github URL'),
+                 h5('https://github.com/hongt/DevelopDataProduct'),
+                 h1(' '),
+                 h5('Tab panel Overview Dengue Table Data(30 rows) - Choose Year in Slider below'),
                  h5('Tab panel PLOT DENGUE Cases Barchart - Overall of State and Year overview ONLY'),
                  h5('Tab panel PLOT DENGUE Outbreak ScatterPlot  - Choose Year in Slider below and then choose State in Tab Panel'),                 
        sliderInput("yyear",
